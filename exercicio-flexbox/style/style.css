@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  white;
+    height: 10vh;
+    width: 100vw;
+    border: rgba(0, 0, 0, 0.274) 1px solid;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    box-sizing: border-box;
+}
+
+.logo{
+    justify-content: initial;
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.logo > p{
+    margin-left: 10px;
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+}
+
+.logo > h1{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+    margin: 0px;
+}
+
+#menu-bar{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+main{
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+#anuncio-central{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.paragrafos-juntos span {
+    display: inline;
+  }
+
+.value{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    color: #888888;
+    padding-left: 5px;
+    padding-right: 50px;
+}  
+
+.condition{
+    background-color: #51D275;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 25px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    padding-top: 5px;
+    color: #555555;
+}
+
+section > div {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 100px ;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+}
+
+main > h2 {
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    height: 50px;
+    width: 100px;
+    color: #888888;
+    margin: 0 auto;
+    
+}
+
+.session{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 600px;
+}
+
+#industrial{
+    background: url(https://s2.glbimg.com/gcBXTIhc4p1cTONG8RpBruSCxl0=/smart/e.glbimg.com/og/ed/f/original/2018/09/19/apartamento_biachi_lima_8.jpg);
+    background-position: 40% 50%;
+    cursor: pointer;
+}
+
+#modern{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzbdc2zxw5cMRGpzKY1NovUI6MoauVBSHVxMeRSWTmjg&s);
+    background-position: 40% 50%;
+    cursor: pointer;
+}
+
+#classic{
+    background: url(https://s2.glbimg.com/QUDfQG2MNDzjTsboIwaTGi7k09s=/512x320/smart/e.glbimg.com/og/ed/f/original/2014/10/21/apartamento_indaiatuba_anderson_leite_01.jpg);
+    background-position: 40% 50%;
+    cursor: pointer;
+}
+
+.titulo-sessao{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888888;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: -650px;
+    background: #333333;
+    height: 30vh;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+#inf{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+#inf > img {
+    cursor: pointer;
+}
+
+#inf > h3{
+    cursor: pointer;
+}
+
+#redes-sociais{
+    display: inline-block;
+    cursor: pointer;
+}
